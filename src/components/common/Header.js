@@ -14,7 +14,7 @@ function Header({ type }) {
 		<header className={type}>
 			<h1>
 				<Link to='/'>
-					<img src={process.env.PUBLIC_URL + './img/logo_b.png'} alt='logo' />
+					<img src={process.env.PUBLIC_URL + logoURL} alt='logo' />
 				</Link>
 				<span>Lorem ipsum dolor sit.</span>
 			</h1>

@@ -20,8 +20,13 @@ function Department() {
 			{Members.map((member, idx) => (
 				<article key={idx}>
 					<div className='inner'>
-						<div className='pic'>
-							<img src={`${path}/img/${member.pic}`} alt={member.name} />
+						<div className='picFrame'>
+							<div className='reflect'>
+								<img src={`${path}/img/${member.pic}`} alt={member.name} />
+							</div>
+							<div className='pic'>
+								<img src={`${path}/img/${member.pic}`} alt={member.name} />
+							</div>
 						</div>
 
 						<h2>{member.name}</h2>
