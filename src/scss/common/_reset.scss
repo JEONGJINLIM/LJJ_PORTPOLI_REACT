@@ -9,11 +9,17 @@ ol,
 li {
 	list-style: none;
 }
-
+table,
+th,
+td {
+	border-collapse: collapse;
+}
 a {
 	text-decoration: none;
 }
 
 body {
 	background: #efefef;
+	width: 100%;
+	overflow-x: hidden;
 }
